@@ -1,0 +1,140 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+  .barcos {
+    margin: 0;
+  }
+  .barco {
+    margin: 0 0 2.5rem 0;
+  }
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+  .barcos {
+    margin: 0;
+  }
+  .barco {
+    margin: 0 0 2.5rem 0;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+  .barcos {
+    margin: 0;
+  }
+  .barco {
+    margin: 0 0 2.5rem 0;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+  .barcos {
+    margin: 0;
+  }
+  .barco {
+    margin: 0 0 2.5rem 0;
+  }
+  .nav-item a {
+    text-align: center;
+    transform: 2s;
+  }
+  .nav-item a:hover {
+    color: var(--azul2) !important;
+  }
+  .navbar .nav-item {
+    margin-left: 0 !important;
+  }
+  .navbar-collapse {
+    background: var(--azul);
+    opacity: 0.7;
+  }
+  .dropdown-menu a:hover {
+    color: var(--azul) !important;
+  }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+  .barcos {
+    margin: 0;
+  }
+  .barco {
+    margin: 0 0 2.5rem 0;
+  }
+  .nav-item a {
+    text-align: center;
+    transform: 2s;
+  }
+  .nav-item a:hover {
+    color: var(--azul2) !important;
+  }
+  .navbar .nav-item {
+    margin-left: 0 !important;
+  }
+  .navbar-collapse {
+    background: var(--azul);
+    opacity: 0.7;
+  }
+  .dropdown-menu a:hover {
+    color: var(--azul) !important;
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  .barcos {
+    margin: 0;
+  }
+  .barco {
+    margin: 0 0 2.5rem 0;
+  }
+  .nav-item a {
+    text-align: center;
+    transform: 2s;
+  }
+  .nav-item a:hover {
+    color: var(--azul2) !important;
+  }
+  .navbar .nav-item {
+    margin-left: 0 !important;
+  }
+  .navbar-collapse {
+    background: var(--azul);
+    opacity: 0.7;
+  }
+  .dropdown-menu a:hover {
+    color: var(--azul) !important;
+  }
+}

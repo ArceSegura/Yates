@@ -1,0 +1,205 @@
+:root {
+  --blancoTrans: rgb(255, 255, 255, 0.5);
+  --gris1: #525459;
+  --blanco: rgb(255, 255, 255);
+  --negro: rgb(0, 0, 0);
+  --azul: #005578;
+  --azul2: #06c3cf;
+  --RobotoFont: "Roboto", "sans-serif";
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* -----------------------HEADER ------------------------------------------------*/
+.header {
+  background-image: url(../img/yate1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 480px;
+  height: 660px;
+}
+.navbar {
+  background-color: transparent !important;
+  border-bottom: var(--blancoTrans) 2px solid;
+  transition: 0.5s;
+}
+.nav-item a {
+  color: var(--blanco) !important;
+  font-size: 17px;
+  transition: 0.3s;
+}
+.nav-item a:hover {
+  color: var(--azul) !important;
+}
+.icon a {
+  font-size: 25px;
+  margin-right: 25px;
+}
+.scrollStyle {
+  background-color: var(--azul) !important;
+  border-bottom: var(--azul) 2px solid;
+}
+.scrollStyle a:hover {
+  color: var(--azul2) !important;
+}
+.dropdown-menu {
+  background-color: var(--azul) !important;
+  opacity: 0.8;
+}
+.dropdown-item:hover {
+  text-decoration: none !important;
+  background-color: var(--azul2) !important;
+}
+.text_header {
+  color: var(--blanco);
+  max-width: 500px;
+  text-align: center;
+  border: 2px solid var(--blancoTrans);
+}
+.text_header h1 {
+  letter-spacing: 3px;
+}
+.text_header p {
+  letter-spacing: 1px;
+}
+
+/*------------------------------------ EXPERIENCIAS --------------------------------------------------*/
+.titulo {
+  color: var(--azul) !important;
+  text-align: center;
+  margin: 2rem 0 2.8rem 0;
+}
+.titulo h2 {
+  font-weight: bold;
+}
+.titulo span {
+  display: inline-block;
+  border-bottom: 3px solid var(--azul);
+  padding-bottom: 5px;
+}
+.experiencias_img {
+  text-align: center;
+}
+.promociones_img {
+  text-align: center;
+}
+.promociones_experiencias img {
+  width: 800px;
+  height: 400px;
+}
+.promociones_experiencias {
+  padding: 0 15%;
+}
+
+/*------------------------------------ BARCOS --------------------------------------------------------*/
+.boton {
+  width: 8rem;
+  border-radius: 0rem !important;
+  color: var(--azul) !important;
+  border-color: var(--azul) !important;
+  transition: 0.5s !important;
+}
+.hover {
+  transition: 0.5s;
+}
+.hover p {
+  color: var(--azul);
+  transition: 0.5s;
+}
+.hover:hover {
+  background-color: var(--azul2);
+}
+.hover:hover .boton {
+  color: var(--blanco) !important;
+  border-color: var(--blanco) !important;
+  background-color: var(--azul2) !important;
+}
+.hover:hover p {
+  color: var(--blanco);
+}
+.barcos {
+  margin: 0 0 2.5rem 0;
+}
+.mostrar_alquiler {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+.mostrar_alquiler button {
+  background-color: var(--azul) !important;
+  border-color: var(--azul) !important;
+}
+.mostrar_alquiler button:hover {
+  background-color: var(--azul2) !important;
+  border-color: var(--azul2) !important;
+}
+
+/*------------------------------------ Footer --------------------------------------------------------*/
+.footer {
+  background-color: var(--azul) !important;
+}
+.mapa {
+  margin: 5% 0 5% 0;
+}
+.redes {
+  margin: 13% 0 0 0;
+  color: var(--blanco);
+}
+.nav-item2 a {
+  color: var(--blanco) !important;
+  font-size: 17px;
+}
+.icon2 a {
+  font-size: 100px;
+  margin-right: 25px;
+}
+
+/*-------------------------------- Modal -----------------------------------------------*/
+.modal {
+  font-family: var(--RobotoFont);
+  font-size: 400;
+}
+.equipo-yate {
+  column-count: 3;
+  list-style: none;
+}
+.incluye-yate {
+  column-count: 3;
+  list-style: none;
+}
+.modal-header {
+  background: var(--azul);
+}
+.modal-header h5 {
+  color: var(--blanco);
+}
+.capacidad {
+  float: left;
+  padding: 6px;
+}
+.nombre-yate {
+  color: var(--azul);
+}
+.ul-title {
+  color: var(--azul2);
+}
+.equipo-yate li{
+    color: var(--gris1);
+    font-size: 13px;
+}
+.incluye-yate li{
+    color: var(--gris1);
+    font-size: 13px;
+}
+.anchor{
+    margin-right: 5px;
+}
+.anchor i{
+    color: var(--blanco);
+}
