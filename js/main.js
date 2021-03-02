@@ -73,8 +73,8 @@ $(document).on("click", "#menos_venta", function () {
 $(window).scroll(function () {
   let distancia = $(this).scrollTop();
   scroll(distancia);
+  
 });
-
 /*Funcion cambiar estilo del navbar */
 function scroll(distancia) {
   if (distancia > 586) {

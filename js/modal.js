@@ -15,6 +15,7 @@ $(document).on("click", ".detallesA", function () {
 
   $(".modal-title").text(Alquiler[id].nombre);
   $(".capacidad-yate").text(`Capacidad: ${Alquiler[id].capacidad}`);
+
   $(".alquiler-img1").attr("src", Alquiler[id].img1);
   $(".alquiler-img2").attr("src", Alquiler[id].img2);
   $(".alquiler-img3").attr("src", Alquiler[id].img3);

@@ -82,12 +82,7 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
   /* CSS */
-  .barcos {
-    margin: 0;
-  }
-  .barco {
-    margin: 0 0 2.5rem 0;
-  }
+  /* Navbar */
   .nav-item a {
     text-align: center;
     transform: 2s;
@@ -104,6 +99,19 @@
   }
   .dropdown-menu a:hover {
     color: var(--azul) !important;
+  }
+  /* Barcos */
+  .card{
+    width: 18rem !important;
+  }
+  .boton{
+    width: 6rem;
+  }
+  .barcos {
+    margin: 0;
+  }
+  .barco {
+    margin: 0 0 2.5rem 0;
   }
 }
 
@@ -114,12 +122,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   /* CSS */
-  .barcos {
-    margin: 0;
-  }
-  .barco {
-    margin: 0 0 2.5rem 0;
-  }
+  /* Navbar */
   .nav-item a {
     text-align: center;
     transform: 2s;
@@ -136,5 +139,25 @@
   }
   .dropdown-menu a:hover {
     color: var(--azul) !important;
+  }
+  /* Barcos */
+  .card{
+    width: 18rem !important;
+  }
+  .boton{
+    width: 6rem;
+  }
+  .barcos {
+    margin: 0;
+  }
+  .barco {
+    margin: 0 0 2.5rem 0;
+  }
+  .navbar-brand{
+    margin-left: 10px;
+  }
+  /* Quita bug del espacio blanco ( NO QUITAR) */
+  .container-fluid{
+    padding-left: 0 !important;
   }
 }
