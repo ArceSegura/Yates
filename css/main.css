@@ -231,26 +231,30 @@ html {
 
 .icono-facebook {
 	background: #2E406E;
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
+  font-size: 1rem;
 }
 
 .icono-tiktok {
 	background: #000000;
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
+  font-size: 1rem;
 }
 
 .icono-whatsapp {
 	background: #00e676;
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
+  font-size: 1rem;
 }
 
 .icono-instagram {
 	background: #d23680;
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
+  font-size: 1rem;
 }
 
 .icono:first-child {
