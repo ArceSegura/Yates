@@ -3,6 +3,11 @@ $(document).ready(function () {
   /* Checar a que distancia esta cuando recarga para cambiar navbar */
   let distancia = $(this).scrollTop();
   scroll(distancia);
+  if(screen.width <= 768){
+    $(".social-bar").removeAttr('hidden');
+  }else{
+    $(".navbar-nav").removeAttr('hidden');
+  }
 });
 
 /* Al precionar el boton mostrar mas */
@@ -73,7 +78,6 @@ $(document).on("click", "#menos_venta", function () {
 $(window).scroll(function () {
   let distancia = $(this).scrollTop();
   scroll(distancia);
-  
 });
 /*Funcion cambiar estilo del navbar */
 function scroll(distancia) {

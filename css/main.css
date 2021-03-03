@@ -208,3 +208,63 @@ html {
 .anchor i{
     color: var(--blanco);
 }
+
+/* ---------------------------REDES---------------------------- */
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icono {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icono-facebook {
+	background: #2E406E;
+  height: 50px;
+  width: 50px;
+}
+
+.icono-tiktok {
+	background: #000000;
+  height: 50px;
+  width: 50px;
+}
+
+.icono-whatsapp {
+	background: #00e676;
+  height: 50px;
+  width: 50px;
+}
+
+.icono-instagram {
+	background: #d23680;
+  height: 50px;
+  width: 50px;
+}
+
+.icono:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icono:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icono:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+  color: var(--blanco)!important;
+  width: 100px;
+}
