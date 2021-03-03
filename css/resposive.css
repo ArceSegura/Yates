@@ -162,9 +162,4 @@
   .nav-item2 a{
     margin: 0 5px;
   }
-  /* Quita bug del espacio blanco ( NO QUITAR) */
-  .container-fluid{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
 }
