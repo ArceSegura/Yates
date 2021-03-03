@@ -14,7 +14,7 @@ $(document).ready(function () {
 $(document).on("click", "#mostrar_alquiler", function () {
   Loader("alquiler");
   $.ajax({
-    url: "../components/alquiler.html",
+    url: "../Yates/components/alquiler.html",
     success: function (res) {
       $("#alquiler").html(res);
       $("#alquiler").show();
@@ -46,7 +46,7 @@ $(document).on("click", "#menos_alquiler", function () {
 $(document).on("click", "#mostrar_venta", function () {
   Loader("venta");
   $.ajax({
-    url: "../components/venta.html",
+    url: "../Yates/components/venta.html",
     success: function (res) {
       $("#venta").html(res);
       $("#venta").show();
